@@ -15,9 +15,9 @@ preliminary experiments with AR in Unreal for REMAP MITHC project
   
   add buttons to debug menu for toggling visibility of cones and spheres
   
-    create function attached to button that updates a visibility boolean and text on the button
+  -create function attached to button that updates a visibility boolean and text on the button
     
-    attached to debug menu's event tick pull from the visibility boolean, use Get All Actors with Tag and For Loop to Set Actor Hidden in Game according to boolean
+  -attached to debug menu's event tick pull from the visibility boolean, use Get All Actors with Tag and For Loop to Set Actor Hidden in Game according to boolean
 
 
 # Crossfade Sequence
