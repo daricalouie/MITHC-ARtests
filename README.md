@@ -1,12 +1,12 @@
 # MITHC-ARtests
 preliminary experiments with AR in Unreal for REMAP MITHC project
 
-# Builds upon Unreal's starter AR template to 
-  hide/show object using Actor tags and debug menu button 
+Builds upon Unreal's starter AR template to 
+* hide/show object using Actor tags and debug menu button 
   
-  trigger crossfade sequence of material opacity
+* trigger crossfade sequence of material opacity
   
-# Hide/Show Object
+## Hide/Show Object
   copied starter blueprint BP_Placeable to create BP_PlaceableSphere and BP_PlaceableCone
   
   under details of the Asset add Actor Tags, (Shape and Sphere or Cone)
@@ -20,7 +20,7 @@ preliminary experiments with AR in Unreal for REMAP MITHC project
   -attached to debug menu's event tick pull from the visibility boolean, use Get All Actors with Tag and For Loop to Set Actor Hidden in Game according to boolean
 
 
-# Crossfade Sequence
+## Crossfade Sequence
   create a scalar Material Parameter Collection
   
   plug it into opacity of material you are using
