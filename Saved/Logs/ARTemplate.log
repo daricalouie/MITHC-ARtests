@@ -10590,3 +10590,6 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.21-02.08.44:221][975]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_Auto377FCBBA0417BFB4BA63F9DB7A65437FD.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Autosaves/Game/HandheldARBP/Maps/HandheldARBlankMap_Auto3.umap'
 [2020.01.21-02.08.44:226][975]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/HandheldARBlankMap' took 1.351
 [2020.01.21-02.08.44:226][975]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.351
+[2020.01.21-02.45.50:080][140]LogUObjectHash: Compacting FUObjectHashTables data took  13.08ms
+[2020.01.21-02.45.50:933][140]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMapAAEDC3914B1A8781603246803FBAA16F.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.01.21-02.45.51:115][140]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltDataDA2E07A9485577F8467B90A358D41249.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
