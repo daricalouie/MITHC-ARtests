@@ -10593,3 +10593,143 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.21-02.45.50:080][140]LogUObjectHash: Compacting FUObjectHashTables data took  13.08ms
 [2020.01.21-02.45.50:933][140]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMapAAEDC3914B1A8781603246803FBAA16F.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
 [2020.01.21-02.45.51:115][140]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltDataDA2E07A9485577F8467B90A358D41249.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.01.21-02.47.58:089][548]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.21-02.47.58:218][548]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.47.58:222][548]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.21-02.47.58:240][548]LogPlayLevel: [PlayLevel] Compiling BP_PlaceableCone before play...
+[2020.01.21-02.47.58:248][548]LogPlayLevel: [PlayLevel]   Compiling BP_ARPawn as a dependent...
+[2020.01.21-02.47.58:299][548]LogBlueprint: Error: [Compiler BP_PlaceableCone] Could not find a function named "NewFunction_0" in 'BP_PlaceableCone_C'.
+Make sure 'BP_PlaceableCone_C' has been compiled for  New Function 0
+[2020.01.21-02.47.59:205][548]LogUObjectHash: Compacting FUObjectHashTables data took  19.21ms
+[2020.01.21-02.47.59:205][548]LogPlayLevel: PlayLevel: Blueprint regeneration took 983 ms (2 blueprints)
+[2020.01.21-02.47.59:205][548]BlueprintLog: Warning: Blueprint failed to compile:  BP_PlaceableCone
+[2020.01.21-02.47.59:209][548]LogCustomDialog: Dialog displayed:
+[2020.01.21-02.48.03:000][548]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.01.21-02.48.04:632][575]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.48.04:724][575]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.48.12:311][881]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_PlaceableConeA6855E904CAAE6267359C28FC46D591C.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/Placeable/BP_PlaceableCone.uasset'
+[2020.01.21-02.48.15:829][ 30]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.21-02.48.15:918][ 30]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.48.15:919][ 30]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.21-02.48.15:926][ 30]LogPlayLevel: [PlayLevel] Compiling BP_PlaceableCone before play...
+[2020.01.21-02.48.16:486][ 30]LogUObjectHash: Compacting FUObjectHashTables data took  11.03ms
+[2020.01.21-02.48.16:486][ 30]LogPlayLevel: PlayLevel: Blueprint regeneration took 567 ms (1 blueprints)
+[2020.01.21-02.48.16:495][ 30]PIE: New page: PIE session: HandheldARBlankMap (Jan 20, 2020, 10:48:16 AM)
+[2020.01.21-02.48.16:502][ 30]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.21-02.48.16:553][ 30]LogPlayLevel: PIE: StaticDuplicateObject took: (0.049991s)
+[2020.01.21-02.48.16:560][ 30]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.01.21-02.48.16:569][ 30]LogPlayLevel: PIE: World Init took: (0.015524s)
+[2020.01.21-02.48.16:569][ 30]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.067627s)
+[2020.01.21-02.48.16:660][ 30]LogUObjectHash: Compacting FUObjectHashTables data took   6.70ms
+[2020.01.21-02.48.16:701][ 30]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.21-02.48.16:746][ 30]LogInit: FAudioDevice initialized.
+[2020.01.21-02.48.16:794][ 30]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.01.21-02.48.16:797][ 30]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.20-18.48.16
+[2020.01.21-02.48.16:802][ 30]LogWorld: Bringing up level for play took: 0.007420
+[2020.01.21-02.48.16:817][ 30]LogOnline: OSS: Creating online subsystem instance for: :Context_31
+[2020.01.21-02.48.16:876][ 30]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.01.21-02.48.16:878][ 30]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 1.204
+[2020.01.21-02.48.16:880][ 30]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.48.20:659][131]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.48.20:659][131]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.48.22:526][183]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.48.22:526][183]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.48.24:491][240]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.48.24:492][240]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.52.59:827][244]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.21-02.53.04:300][368]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.53.04:304][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.21-02.53.04:304][368]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.21-02.53.04:309][368]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.21-02.53.04:387][368]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.21-02.53.04:388][368]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.53.04:607][368]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.21-02.53.04:636][368]LogUObjectHash: Compacting FUObjectHashTables data took   9.58ms
+[2020.01.21-02.53.05:221][375]LogPlayLevel: Display: Destroying online subsystem :Context_31
+[2020.01.21-02.53.06:500][397]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.53.06:593][397]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.53.08:555][430]LogUObjectHash: Compacting FUObjectHashTables data took   3.18ms
+[2020.01.21-02.53.09:261][430]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap8FD2C51642AED036C9FD74A318730FC4.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.01.21-02.53.09:378][430]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltData8C7313F84C510709E38BDC8FEABFE455.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.01.21-02.53.11:699][484]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.21-02.53.11:801][484]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.53.11:801][484]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.21-02.53.11:801][484]PIE: New page: PIE session: HandheldARBlankMap (Jan 20, 2020, 10:53:11 AM)
+[2020.01.21-02.53.11:809][484]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.21-02.53.11:872][484]LogPlayLevel: PIE: StaticDuplicateObject took: (0.062126s)
+[2020.01.21-02.53.11:875][484]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.01.21-02.53.11:875][484]LogPlayLevel: PIE: World Init took: (0.003030s)
+[2020.01.21-02.53.11:875][484]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.065641s)
+[2020.01.21-02.53.11:992][484]LogUObjectHash: Compacting FUObjectHashTables data took  11.79ms
+[2020.01.21-02.53.12:020][484]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.21-02.53.12:057][484]LogInit: FAudioDevice initialized.
+[2020.01.21-02.53.12:069][484]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.01.21-02.53.12:071][484]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.20-18.53.12
+[2020.01.21-02.53.12:072][484]LogWorld: Bringing up level for play took: 0.001252
+[2020.01.21-02.53.12:072][484]LogOnline: OSS: Creating online subsystem instance for: :Context_32
+[2020.01.21-02.53.12:080][484]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.01.21-02.53.12:081][484]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.408
+[2020.01.21-02.53.12:081][484]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.53.49:783][489]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.53.49:784][489]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.53.53:039][572]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.53.53:039][572]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.53.55:511][637]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.53.55:511][637]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.53.57:277][683]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.53.57:278][683]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.53.58:963][728]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.53.58:964][728]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.11:139][ 52]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.54.11:140][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.21-02.54.11:140][ 52]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.21-02.54.11:141][ 52]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.21-02.54.11:229][ 52]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.21-02.54.11:229][ 52]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.54.11:382][ 52]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.21-02.54.11:399][ 52]LogUObjectHash: Compacting FUObjectHashTables data took  10.91ms
+[2020.01.21-02.54.11:867][ 59]LogPlayLevel: Display: Destroying online subsystem :Context_32
+[2020.01.21-02.54.12:549][ 72]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.54.12:639][ 72]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.54.14:651][113]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.21-02.54.14:770][113]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.54.14:770][113]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.21-02.54.14:771][113]PIE: New page: PIE session: HandheldARBlankMap (Jan 20, 2020, 10:54:14 AM)
+[2020.01.21-02.54.14:774][113]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.21-02.54.14:851][113]LogPlayLevel: PIE: StaticDuplicateObject took: (0.076434s)
+[2020.01.21-02.54.14:855][113]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.01.21-02.54.14:856][113]LogPlayLevel: PIE: World Init took: (0.005243s)
+[2020.01.21-02.54.14:856][113]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.082146s)
+[2020.01.21-02.54.14:979][113]LogUObjectHash: Compacting FUObjectHashTables data took  10.69ms
+[2020.01.21-02.54.15:008][113]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.21-02.54.15:045][113]LogInit: FAudioDevice initialized.
+[2020.01.21-02.54.15:060][113]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.01.21-02.54.15:061][113]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.20-18.54.15
+[2020.01.21-02.54.15:062][113]LogWorld: Bringing up level for play took: 0.001213
+[2020.01.21-02.54.15:062][113]LogOnline: OSS: Creating online subsystem instance for: :Context_33
+[2020.01.21-02.54.15:075][113]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.01.21-02.54.15:075][113]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.598
+[2020.01.21-02.54.15:075][113]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.54.19:712][235]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.54.19:712][235]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.22:443][309]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.22:444][309]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.54.24:161][359]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.54.24:161][359]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.25:940][410]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.25:941][410]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.54.27:630][459]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.54.27:631][459]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.29:446][512]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.21-02.54.29:447][512]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.21-02.54.31:456][571]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.54.31:457][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.21-02.54.31:458][571]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.21-02.54.31:458][571]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.21-02.54.31:532][571]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.21-02.54.31:533][571]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.21-02.54.31:675][571]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.21-02.54.31:689][571]LogUObjectHash: Compacting FUObjectHashTables data took  12.35ms
+[2020.01.21-02.54.32:152][578]LogPlayLevel: Display: Destroying online subsystem :Context_33
+[2020.01.21-02.54.33:096][596]LogSlate: Window 'Message Log' being destroyed
+[2020.01.21-02.54.33:191][596]LogSlate: Window 'Message Log' being destroyed
