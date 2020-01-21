@@ -10578,3 +10578,15 @@ LogConfig: Setting CVar [[r.setres:1280x720]]
 [2020.01.20-20.51.23:797][245]LogUObjectHash: Compacting FUObjectHashTables data took   3.26ms
 [2020.01.20-20.51.24:786][245]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMapF773B2044823F4D70724DA92D863E5BF.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
 [2020.01.20-20.51.25:029][245]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltData8D4594414835C8392C2044A4527D65B9.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.01.20-21.31.40:306][252]LogUObjectHash: Compacting FUObjectHashTables data took  75.19ms
+[2020.01.20-21.31.40:317][252]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/HandheldARBlankMap' took 1.351
+[2020.01.20-21.31.40:353][252]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/Placeable/BP_PlaceableCone] ([1] browsable assets)...
+[2020.01.20-21.31.40:354][252]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/Placeable/BP_PlaceableCone]
+[2020.01.20-21.31.40:686][252]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_PlaceableCone_Auto2F5F7746440BFA0779E9E56ADB4065C32.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Autosaves/Game/HandheldARBP/Blueprints/Placeable/BP_PlaceableCone_Auto2.uasset'
+[2020.01.20-21.31.40:702][252]LogFileHelpers: Auto-saving content packages took 0.375
+[2020.01.21-02.07.34:768][838]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/Placeable/BP_PlaceableCone.BP_PlaceableCone
+[2020.01.21-02.08.07:805][328]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_PlaceableCone991D44004537C38BF760AE80C93ABE9A.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/Placeable/BP_PlaceableCone.uasset'
+[2020.01.21-02.08.43:399][975]LogUObjectHash: Compacting FUObjectHashTables data took  30.57ms
+[2020.01.21-02.08.44:221][975]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_Auto377FCBBA0417BFB4BA63F9DB7A65437FD.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Autosaves/Game/HandheldARBP/Maps/HandheldARBlankMap_Auto3.umap'
+[2020.01.21-02.08.44:226][975]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/HandheldARBlankMap' took 1.351
+[2020.01.21-02.08.44:226][975]LogFileHelpers: Editor autosave (incl. sublevels) for all levels took 1.351
