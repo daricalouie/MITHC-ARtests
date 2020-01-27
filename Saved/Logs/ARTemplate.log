@@ -1,4 +1,4 @@
-﻿Log file open, 01/21/20 10:47:01
+﻿Log file open, 01/27/20 10:07:39
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: ARTemplate
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.115577
+LogStats: Stats thread started at 0.114866
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -161,843 +161,552 @@ LogInit: Presizing for max 16777216 objects, including 0 objects not considered 
 LogInit: Object subsystem initialized
 LogConfig: Setting CVar [[con.DebugEarlyDefault:1]]
 LogConfig: Setting CVar [[r.setres:1280x720]]
-[2020.01.21-18.47.02:150][  0]LogConfig: Setting CVar [[r.VSync:0]]
-[2020.01.21-18.47.02:150][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
-[2020.01.21-18.47.02:150][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:150][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
-[2020.01.21-18.47.02:150][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
-[2020.01.21-18.47.02:151][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
-[2020.01.21-18.47.02:152][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
-[2020.01.21-18.47.02:153][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
-[2020.01.21-18.47.02:154][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:154][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:157][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:157][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.01.21-18.47.02:157][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.01.21-18.47.02:158][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.01.21-18.47.02:159][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.01.21-18.47.02:160][  0]LogInit: Selected Device Profile: [Windows]
-[2020.01.21-18.47.02:160][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
-[2020.01.21-18.47.02:170][  0]LogHAL: Display: Platform has ~ 8 GB [8483405824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
-[2020.01.21-18.47.02:170][  0]LogInit: Going up to parent DeviceProfile []
-[2020.01.21-18.47.02:170][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
-[2020.01.21-18.47.02:170][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
-[2020.01.21-18.47.02:171][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
-[2020.01.21-18.47.02:172][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
-[2020.01.21-18.47.02:172][  0]LogInit: Computer: DESKTOP-83S7T9K
-[2020.01.21-18.47.02:172][  0]LogInit: User: Darica
-[2020.01.21-18.47.02:172][  0]LogInit: CPU Page size=4096, Cores=2
-[2020.01.21-18.47.02:172][  0]LogInit: High frequency timer resolution =10.000000 MHz
-[2020.01.21-18.47.02:172][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
-[2020.01.21-18.47.02:172][  0]LogMemory: Platform Memory Stats for Windows
-[2020.01.21-18.47.02:173][  0]LogMemory: Process Physical Memory: 102.07 MB used, 102.08 MB peak
-[2020.01.21-18.47.02:173][  0]LogMemory: Process Virtual Memory: 100.11 MB used, 100.11 MB peak
-[2020.01.21-18.47.02:173][  0]LogMemory: Physical Memory: 6509.71 MB used,  1580.69 MB free, 8090.41 MB total
-[2020.01.21-18.47.02:173][  0]LogMemory: Virtual Memory: 4654.13 MB used,  134213072.00 MB free, 134217728.00 MB total
-[2020.01.21-18.47.02:177][  0]LogWindows: WindowsPlatformFeatures enabled
-[2020.01.21-18.47.02:208][  0]LogInit: Using OS detected language (en-US).
-[2020.01.21-18.47.02:208][  0]LogInit: Using OS detected locale (en-US).
-[2020.01.21-18.47.02:209][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
-[2020.01.21-18.47.02:495][  0]LogInit: Setting process to per monitor DPI aware
-[2020.01.21-18.47.02:567][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
-[2020.01.21-18.47.02:567][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
-[2020.01.21-18.47.02:880][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.01.21-18.47.02:880][  0]LogD3D11RHI: D3D11 adapters:
-[2020.01.21-18.47.02:891][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
-[2020.01.21-18.47.02:891][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
-[2020.01.21-18.47.02:896][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
-[2020.01.21-18.47.02:896][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
-[2020.01.21-18.47.02:896][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
-[2020.01.21-18.47.02:906][  0]LogD3D11RHI: Creating new Direct3DDevice
-[2020.01.21-18.47.02:906][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
-[2020.01.21-18.47.02:906][  0]LogWindows: EnumDisplayDevices:
-[2020.01.21-18.47.02:906][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
-[2020.01.21-18.47.02:907][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2020.01.21-18.47.02:907][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
-[2020.01.21-18.47.02:908][  0]LogWindows: DebugString: FoundDriverCount:3 
-[2020.01.21-18.47.02:908][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
-[2020.01.21-18.47.02:908][  0]LogD3D11RHI:   Driver Version: 21.20.16.4574 (internal:21.20.16.4574, unified:21.20.16.4574)
-[2020.01.21-18.47.02:908][  0]LogD3D11RHI:      Driver Date: 12-23-2016
-[2020.01.21-18.47.02:908][  0]LogRHI: Texture pool is 1505 MB (70% of 2150 MB)
-[2020.01.21-18.47.02:917][  0]LogD3D11RHI: Async texture creation enabled
-[2020.01.21-18.47.02:928][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
-[2020.01.21-18.47.03:478][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
-[2020.01.21-18.47.03:497][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
-[2020.01.21-18.47.03:516][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
-[2020.01.21-18.47.03:535][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
-[2020.01.21-18.47.03:553][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
-[2020.01.21-18.47.03:571][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
-[2020.01.21-18.47.03:588][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
-[2020.01.21-18.47.03:605][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
-[2020.01.21-18.47.03:613][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
-[2020.01.21-18.47.03:675][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
-[2020.01.21-18.47.03:676][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
-[2020.01.21-18.47.03:679][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
-[2020.01.21-18.47.03:711][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
-[2020.01.21-18.47.03:711][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
-[2020.01.21-18.47.03:733][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
-[2020.01.21-18.47.03:733][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
-[2020.01.21-18.47.03:743][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
-[2020.01.21-18.47.03:752][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
-[2020.01.21-18.47.03:761][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
-[2020.01.21-18.47.03:771][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
-[2020.01.21-18.47.03:803][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
-[2020.01.21-18.47.03:803][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
-[2020.01.21-18.47.03:803][  0]LogTargetPlatformManager: Display: Building Assets For Windows
-[2020.01.21-18.47.03:818][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
-[2020.01.21-18.47.03:909][  0]LogShaderCompilers: Guid format shader working directory is -21 characters bigger than the processId version (../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Intermediate/Shaders/WorkingDirectory/14372/).
-[2020.01.21-18.47.03:910][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Darica/AppData/Local/Temp/UnrealShaderWorkingDir/2D5616A0440B618A990182B2B8EBBA22/'.
-[2020.01.21-18.47.03:915][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
-[2020.01.21-18.47.03:916][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
-[2020.01.21-18.47.03:916][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
-[2020.01.21-18.47.04:802][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
-[2020.01.21-18.47.04:877][  0]LogDerivedDataCache: Loaded boot cache 0.08s 89MB C:/Users/Darica/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.01.21-18.47.04:878][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Darica/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
-[2020.01.21-18.47.04:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
-[2020.01.21-18.47.04:878][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
-[2020.01.21-18.47.04:878][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.01.21-18.47.04:878][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
-[2020.01.21-18.47.04:892][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
-[2020.01.21-18.47.04:892][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
-[2020.01.21-18.47.04:892][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
-[2020.01.21-18.47.04:893][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Darica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
-[2020.01.21-18.47.04:893][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
-[2020.01.21-18.47.04:893][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
-[2020.01.21-18.47.04:933][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
-[2020.01.21-18.47.04:938][  0]LogSlate: Using FreeType 2.6.0
-[2020.01.21-18.47.04:938][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
-[2020.01.21-18.47.05:025][  0]LogAssetRegistry: FAssetRegistry took 0.0038 seconds to start up
-[2020.01.21-18.47.05:492][  0]LogInit: Selected Device Profile: [Windows]
-[2020.01.21-18.47.05:750][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
-[2020.01.21-18.47.05:750][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
-[2020.01.21-18.47.05:750][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
-[2020.01.21-18.47.05:750][  0]LogMeshReduction: No distributed automatic mesh merging module available
-[2020.01.21-18.47.05:750][  0]LogMeshMerging: No distributed automatic mesh merging module available
-[2020.01.21-18.47.05:767][  0]LogNetVersion: ARTemplate 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 820814151)
-[2020.01.21-18.47.06:601][  0]LogPackageLocalizationCache: Processed 15 localized package path(s) for 1 prioritized culture(s) in 0.115525 seconds
-[2020.01.21-18.47.06:614][  0]LogUObjectArray: 44124 objects as part of root set at end of initial load.
-[2020.01.21-18.47.06:614][  0]LogUObjectAllocator: 7692616 out of 0 bytes used by permanent object pool.
-[2020.01.21-18.47.06:614][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
-[2020.01.21-18.47.07:939][  0]LogTcpMessaging: Initializing TcpMessaging bridge
-[2020.01.21-18.47.07:943][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
-[2020.01.21-18.47.08:107][  0]SourceControl: Source control is disabled
-[2020.01.21-18.47.08:108][  0]SourceControl: Source control is disabled
-[2020.01.21-18.47.08:109][  0]SourceControl: Source control is disabled
-[2020.01.21-18.47.08:111][  0]SourceControl: Source control is disabled
-[2020.01.21-18.47.08:247][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
-[2020.01.21-18.47.08:490][  0]LogOcInput: OculusInput pre-init called
-[2020.01.21-18.47.08:502][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
-[2020.01.21-18.47.08:502][  0]LogWindows: File 'OVRPlugin.dll' does not exist
-[2020.01.21-18.47.08:613][  0]LogEngine: Initializing Engine...
-[2020.01.21-18.47.08:615][  0]LogHMD: Failed to initialize OpenVR with code 110
-[2020.01.21-18.47.08:617][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.000 s
-[2020.01.21-18.47.08:967][  0]LogInit: Initializing FReadOnlyCVARCache
-[2020.01.21-18.47.08:992][  0]LogAIModule: Creating AISystem for world Untitled
-[2020.01.21-18.47.09:031][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-18.47.09:176][  0]LogInit: FAudioDevice initialized.
-[2020.01.21-18.47.09:177][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
-[2020.01.21-18.47.09:268][  0]LogDerivedDataCache: Saved boot cache 0.09s 89MB C:/Users/Darica/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
-[2020.01.21-18.47.09:287][  0]LogInit: Texture streaming: Enabled
-[2020.01.21-18.47.09:321][  0]LogEngineSessionManager: EngineSessionManager initialized
-[2020.01.21-18.47.09:321][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
-[2020.01.21-18.47.09:322][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
-[2020.01.21-18.47.09:429][  0]LogInit: Transaction tracking system initialized
-[2020.01.21-18.47.09:485][  0]BlueprintLog: New page: Editor Load
-[2020.01.21-18.47.09:620][  0]LocalizationService: Localization service is disabled
-[2020.01.21-18.47.10:673][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Content/' took 0.01s
-[2020.01.21-18.47.10:673][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
-[2020.01.21-18.47.10:673][  0]LogCook: Display: Mobile HDR setting 1
-[2020.01.21-18.47.11:097][  0]SourceControl: Source control is disabled
-[2020.01.21-18.47.11:097][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
-[2020.01.21-18.47.11:098][  0]LightingResults: New page: Lighting Build
-[2020.01.21-18.47.11:102][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-18.47.11:103][  0]MapCheck: New page: Map Check
-[2020.01.21-18.47.11:103][  0]LightingResults: New page: Lighting Build
-[2020.01.21-18.47.11:128][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.84ms
-[2020.01.21-18.47.11:379][  0]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-18.47.11:387][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
-[2020.01.21-18.47.11:429][  0]LogUObjectHash: Compacting FUObjectHashTables data took   3.89ms
-[2020.01.21-18.47.11:429][  0]Cmd: MAP CHECKDEP NOCLEARLOG
-[2020.01.21-18.47.11:430][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.226ms to complete.
-[2020.01.21-18.47.11:430][  0]LogFileHelpers: Loading map 'HandheldARBlankMap' took 0.333
-[2020.01.21-18.47.11:622][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-18.47.11:637][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-18.47.11:651][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-18.47.11:666][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-18.47.11:689][  0]LogCollectionManager: Loaded 0 collections in 0.003726 seconds
-[2020.01.21-18.47.11:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Collections/' took 0.00s
-[2020.01.21-18.47.11:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Content/Developers/Darica/Collections/' took 0.00s
-[2020.01.21-18.47.11:715][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Content/Collections/' took 0.00s
-[2020.01.21-18.47.11:715][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
-[2020.01.21-18.47.11:734][  0]LogContentBrowser: Native class hierarchy populated in 0.0170 seconds. Added 2957 classes and 723 folders.
-[2020.01.21-18.47.11:751][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.01.21-18.47.12:242][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.01.21-18.47.12:256][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
-[2020.01.21-18.47.13:898][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
-[2020.01.21-18.47.13:936][  0]LogSlate: Took 0.000239 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
-[2020.01.21-18.47.13:943][  0]LogSlate: Took 0.000268 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
-[2020.01.21-18.47.13:964][  0]LogSlate: Took 0.017181 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
-[2020.01.21-18.47.14:155][  0]LogRenderer: Reallocating scene render targets to support 1016x256 Format 10 NumSamples 1 (Frame:1).
-[2020.01.21-18.47.15:020][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0003 seconds. Added 0 classes and 0 folders.
-[2020.01.21-18.47.15:020][  0]LogLoad: (Engine Initialization) Total time: 14.58 seconds
-[2020.01.21-18.47.15:020][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
-[2020.01.21-18.47.15:368][  0]LogContentStreaming: Texture pool size now 1000 MB
-[2020.01.21-18.47.15:931][  4]LogAssetRegistry: Asset discovery search completed in 10.9072 seconds
-[2020.01.21-18.47.15:938][  4]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000006 seconds (found 0 objects)
-[2020.01.21-18.47.15:938][  4]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000096 seconds (updated 0 objects)
-[2020.01.21-18.47.16:935][ 61]LogSlate: Took 0.010070 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
-[2020.01.21-18.47.25:367][539]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-18.47.25:500][547]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-18.47.25:545][547]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-18.47.25:545][547]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.21-18.47.25:546][547]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 2:47:25 AM)
-[2020.01.21-18.47.25:547][547]LogOnline: OSS: Creating online subsystem instance for: NULL
-[2020.01.21-18.47.25:548][547]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-18.47.25:575][547]LogPlayLevel: PIE: StaticDuplicateObject took: (0.026567s)
-[2020.01.21-18.47.25:576][547]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-18.47.25:576][547]LogPlayLevel: PIE: World Init took: (0.001510s)
-[2020.01.21-18.47.25:576][547]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.028391s)
-[2020.01.21-18.47.25:600][547]LogUObjectHash: Compacting FUObjectHashTables data took   2.41ms
-[2020.01.21-18.47.25:617][547]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-18.47.25:653][547]LogInit: FAudioDevice initialized.
-[2020.01.21-18.47.25:880][547]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-18.47.25:883][547]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-10.47.25
-[2020.01.21-18.47.25:884][547]LogWorld: Bringing up level for play took: 0.002148
-[2020.01.21-18.47.25:884][547]LogOnline: OSS: Creating online subsystem instance for: :Context_2
-[2020.01.21-18.47.25:898][547]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0003 seconds. Added 20 classes and 0 folders.
-[2020.01.21-18.47.25:906][547]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-18.47.25:906][547]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 1.002
-[2020.01.21-18.47.25:907][547]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-18.47.32:718][779]LogBlueprintUserMessages: [FadeComponent] true
-[2020.01.21-18.47.34:747][852]LogBlueprintUserMessages: [FadeComponent] false
-[2020.01.21-18.47.54:182][529]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-18.47.54:247][531]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-18.47.54:251][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-18.47.54:251][531]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-18.47.54:252][531]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-18.47.54:306][531]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-18.47.54:306][531]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-18.47.54:353][531]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-18.47.54:365][531]LogUObjectHash: Compacting FUObjectHashTables data took   5.38ms
-[2020.01.21-18.47.54:776][538]LogPlayLevel: Display: Destroying online subsystem :Context_2
-[2020.01.21-18.47.56:467][588]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-18.48.09:483][290]LogEditorViewport: Clicking on Actor (LMB): BP_PlaceableCone_C (BP_PlaceableCone2)
-[2020.01.21-18.48.10:811][360]LogEditorViewport: Clicking Background
-[2020.01.21-18.48.17:609][727]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-18.48.17:799][737]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn
-[2020.01.21-18.48.18:245][737]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/ARCoreUtils.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.01.21-18.48.18:254][737]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/CameraTextureUVParams.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
-[2020.01.21-18.48.18:377][737]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0009 seconds. Added 121 classes and 0 folders.
-[2020.01.21-18.48.19:882][737]LogSlate: Took 0.009640 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
-[2020.01.21-18.48.20:109][738]LogSlate: Took 0.010945 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
-[2020.01.21-18.48.36:560][600]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={9059D6F8-4AF6-17AA-1BB8-558F082F7A14}
-[2020.01.21-18.49.15:076][450]LogSlate: Took 0.012577 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensedItalic.ttf' (160K)
-[2020.01.21-18.55.21:938][745]LogRenderer: Reallocating scene render targets to support 1016x404 Format 10 NumSamples 1 (Frame:1).
-[2020.01.21-18.56.49:248][807]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={D4971612-4B53-DB29-FBDF-43A83A59B375}
-[2020.01.21-18.56.52:042][929]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnBEAE6FBB4168B2A8493810A1E1E6214E.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-18.57.01:431][440]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn14856C674006A17934E0A8A3944D5B6E.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-18.57.07:175][742]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnF8E5D8594979A35C476AB6BB678ED463.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-18.58.05:760][990]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnCE3F2D604C66A54F0B06AFBF8EA02CC5.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-18.59.39:039][154]LogUObjectHash: Compacting FUObjectHashTables data took   4.87ms
-[2020.01.21-18.59.39:039][154]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/HandheldARBlankMap' took 0.053
-[2020.01.21-18.59.39:042][154]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn] ([1] browsable assets)...
-[2020.01.21-18.59.39:042][154]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn]
-[2020.01.21-18.59.39:118][154]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn_Auto1B8EF9A494CD10D35138E2EA8DA095A8D.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Autosaves/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn_Auto1.uasset'
-[2020.01.21-18.59.39:119][154]LogFileHelpers: Auto-saving content packages took 0.078
-[2020.01.21-19.05.16:530][ 81]LogHttp: Warning: 000001CFF103A480: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD44E4D7-4EA9-1089-A9DB-5396BCE195E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=58f5eb624b93cf76a120e3b9a115531e%7Cee9fb95ab84b4aa387978f2c2b250cef%7C5e5a307c-d664-4a98-8504-ef729bf0b611&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2020.01.21-19.05.16:530][ 81]LogHttp: Warning: 000001CFF103A480: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2020.01.21-19.05.16:530][ 81]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 0 (Connection 8 seems to be dead!)
-[2020.01.21-19.05.16:530][ 81]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 1 (Closing connection 8)
-[2020.01.21-19.05.16:530][ 81]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 2 (Could not resolve host: datarouter.ol.epicgames.com)
-[2020.01.21-19.05.16:530][ 81]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 3 (Closing connection 9)
-[2020.01.21-19.05.16:547][ 82]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD44E4D7-4EA9-1089-A9DB-5396BCE195E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=58f5eb624b93cf76a120e3b9a115531e%7Cee9fb95ab84b4aa387978f2c2b250cef%7C5e5a307c-d664-4a98-8504-ef729bf0b611&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2020.01.21-19.07.50:924][830]LogHttp: Warning: 000001CFF103A480: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD44E4D7-4EA9-1089-A9DB-5396BCE195E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=58f5eb624b93cf76a120e3b9a115531e%7Cee9fb95ab84b4aa387978f2c2b250cef%7C5e5a307c-d664-4a98-8504-ef729bf0b611&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2020.01.21-19.07.50:924][830]LogHttp: Warning: 000001CFF103A480: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2020.01.21-19.07.50:925][830]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2020.01.21-19.07.50:925][830]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 1 (Closing connection 10)
-[2020.01.21-19.07.50:925][830]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD44E4D7-4EA9-1089-A9DB-5396BCE195E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=58f5eb624b93cf76a120e3b9a115531e%7Cee9fb95ab84b4aa387978f2c2b250cef%7C5e5a307c-d664-4a98-8504-ef729bf0b611&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2020.01.21-19.09.51:264][  5]LogHttp: Warning: 000001CFF103A480: invalid HTTP response code received. URL: https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD44E4D7-4EA9-1089-A9DB-5396BCE195E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=58f5eb624b93cf76a120e3b9a115531e%7Cee9fb95ab84b4aa387978f2c2b250cef%7C5e5a307c-d664-4a98-8504-ef729bf0b611&AppEnvironment=datacollector-binary&UploadType=eteventstream, HTTP code: 0, content length: -1, actual payload size: 0
-[2020.01.21-19.09.51:265][  5]LogHttp: Warning: 000001CFF103A480: request failed, libcurl error: 6 (Couldn't resolve host name)
-[2020.01.21-19.09.51:265][  5]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 0 (Could not resolve host: datarouter.ol.epicgames.com)
-[2020.01.21-19.09.51:265][  5]LogHttp: Warning: 000001CFF103A480: libcurl info message cache 1 (Closing connection 11)
-[2020.01.21-19.09.51:281][  6]LogHttp: Warning: Retry exhausted on https://datarouter.ol.epicgames.com/datarouter/api/v1/public/data?SessionID=%7BCD44E4D7-4EA9-1089-A9DB-5396BCE195E5%7D&AppID=UEEditor.Rocket.Release&AppVersion=4.23.1-9631420%2B%2B%2BUE4%2BRelease-4.23&UserID=58f5eb624b93cf76a120e3b9a115531e%7Cee9fb95ab84b4aa387978f2c2b250cef%7C5e5a307c-d664-4a98-8504-ef729bf0b611&AppEnvironment=datacollector-binary&UploadType=eteventstream
-[2020.01.21-19.18.12:542][222]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn8F2CB7DE40EBCF900FA4D28AAD348ACA.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.19.04:367][477]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnBCE724064D9A2E37CCDD6C913F1AACCE.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.19.07:260][634]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.19.07:329][634]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.19.07:329][634]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.01.21-19.19.07:355][634]LogPlayLevel: [PlayLevel] Compiling BP_ARPawn before play...
-[2020.01.21-19.19.07:381][634]LogBlueprint: Error: [Compiler BP_ARPawn] Could not find a pin for the parameter Selected of HighlightSelection on  Highlight Selection
-[2020.01.21-19.19.07:382][634]LogBlueprint: Error: [Compiler BP_ARPawn] Pin  New Param  named NewParam doesn't match any parameters of function HighlightSelection
-[2020.01.21-19.19.07:729][634]LogUObjectHash: Compacting FUObjectHashTables data took   4.70ms
-[2020.01.21-19.19.07:729][634]LogPlayLevel: PlayLevel: Blueprint regeneration took 400 ms (1 blueprints)
-[2020.01.21-19.19.07:729][634]BlueprintLog: Warning: Blueprint failed to compile:  BP_ARPawn
-[2020.01.21-19.19.07:731][634]LogCustomDialog: Dialog displayed:
-[2020.01.21-19.19.09:883][634]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
-[2020.01.21-19.19.11:023][672]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.19.11:032][672]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.19.13:501][789]BlueprintLog: New page: Compile BP_ARPawn
-[2020.01.21-19.19.13:549][789]LogBlueprint: Error: [Compiler BP_ARPawn] Could not find a pin for the parameter Selected of HighlightSelection on  Highlight Selection
-[2020.01.21-19.19.13:550][789]LogBlueprint: Error: [Compiler BP_ARPawn] Pin  New Param  named NewParam doesn't match any parameters of function HighlightSelection
-[2020.01.21-19.19.13:842][789]LogUObjectHash: Compacting FUObjectHashTables data took   4.46ms
-[2020.01.21-19.19.44:773][ 86]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnF7D93A144C91CDA65730098EEDA0767F.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.20.06:072][967]BlueprintLog: New page: Compile BP_ARPawn
-[2020.01.21-19.20.06:122][967]LogBlueprint: Error: [Compiler BP_ARPawn] Could not find a pin for the parameter Selected of HighlightSelection on  Highlight Selection
-[2020.01.21-19.20.06:122][967]LogBlueprint: Error: [Compiler BP_ARPawn] Pin  New Param  named NewParam doesn't match any parameters of function HighlightSelection
-[2020.01.21-19.20.06:430][967]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
-[2020.01.21-19.20.18:867][456]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn05AAF58E4CFB5F69B7D900BE908C3132.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.20.21:936][582]BlueprintLog: New page: Compile BP_ARPawn
-[2020.01.21-19.20.22:389][582]LogUObjectHash: Compacting FUObjectHashTables data took   5.37ms
-[2020.01.21-19.20.24:276][672]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.20.24:346][672]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.20.24:346][672]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.21-19.20.24:395][672]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:20:24 AM)
-[2020.01.21-19.20.24:410][672]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.20.24:694][672]LogPlayLevel: PIE: StaticDuplicateObject took: (0.284121s)
-[2020.01.21-19.20.24:879][672]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.20.24:907][672]LogPlayLevel: PIE: World Init took: (0.212711s)
-[2020.01.21-19.20.24:907][672]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.497189s)
-[2020.01.21-19.20.24:985][672]LogUObjectHash: Compacting FUObjectHashTables data took   5.83ms
-[2020.01.21-19.20.25:101][672]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.20.25:163][672]LogInit: FAudioDevice initialized.
-[2020.01.21-19.20.25:320][672]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.20.25:434][672]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.20.25
-[2020.01.21-19.20.25:458][672]LogWorld: Bringing up level for play took: 0.083584
-[2020.01.21-19.20.25:477][672]LogOnline: OSS: Creating online subsystem instance for: :Context_7
-[2020.01.21-19.20.25:663][672]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.20.25:668][672]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.427
-[2020.01.21-19.20.25:671][672]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.20.30:616][812]LogBlueprintUserMessages: [FadeComponent] true
-[2020.01.21-19.20.31:978][855]LogBlueprintUserMessages: [FadeComponent] false
-[2020.01.21-19.20.33:504][902]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:HighlightSelection:008C
-[2020.01.21-19.20.33:505][902]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Highlight Selection Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.20.38:684][ 54]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.20.38:810][ 58]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.20.38:811][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.20.38:812][ 58]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.20.38:812][ 58]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.20.38:875][ 58]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.20.38:876][ 58]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.20.38:960][ 58]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.20.38:970][ 58]LogUObjectHash: Compacting FUObjectHashTables data took   5.55ms
-[2020.01.21-19.20.39:420][ 65]LogPlayLevel: Display: Destroying online subsystem :Context_7
-[2020.01.21-19.20.42:701][144]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.20.42:752][144]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.21.50:746][527]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn838771BA4AA9E001A9870CACAF316EEF.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.23.20:821][269]LogSlate: Prevented a slow task dialog from being summoned while a context menu was open
-[2020.01.21-19.24.29:818][112]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnC15EBF5F43156FCD26A8A7A3F07899F4.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.24.58:113][227]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn02AC438F422A642ED292CCA2C1F23DF2.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.25.21:886][287]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn1669AC3F4D565A4C8B38A2A403C19DD2.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.25.24:429][385]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.25.24:519][385]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.25.24:519][385]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.01.21-19.25.24:532][385]LogPlayLevel: [PlayLevel] Compiling BP_ARPawn before play...
-[2020.01.21-19.25.24:997][385]LogUObjectHash: Compacting FUObjectHashTables data took   4.74ms
-[2020.01.21-19.25.24:997][385]LogPlayLevel: PlayLevel: Blueprint regeneration took 477 ms (1 blueprints)
-[2020.01.21-19.25.24:997][385]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:25:24 AM)
-[2020.01.21-19.25.24:997][385]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.25.25:019][385]LogPlayLevel: PIE: StaticDuplicateObject took: (0.021205s)
-[2020.01.21-19.25.25:020][385]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.25.25:020][385]LogPlayLevel: PIE: World Init took: (0.001315s)
-[2020.01.21-19.25.25:020][385]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.022698s)
-[2020.01.21-19.25.25:059][385]LogUObjectHash: Compacting FUObjectHashTables data took   3.39ms
-[2020.01.21-19.25.25:076][385]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.25.25:098][385]LogInit: FAudioDevice initialized.
-[2020.01.21-19.25.25:106][385]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.25.25:107][385]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.25.25
-[2020.01.21-19.25.25:107][385]LogWorld: Bringing up level for play took: 0.000854
-[2020.01.21-19.25.25:108][385]LogOnline: OSS: Creating online subsystem instance for: :Context_8
-[2020.01.21-19.25.25:113][385]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.25.25:113][385]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.127
-[2020.01.21-19.25.25:113][385]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.25.27:525][448]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0059
-[2020.01.21-19.25.27:525][448]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.25.33:104][600]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.25.33:146][601]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.25.33:147][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.25.33:147][601]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.25.33:148][601]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.25.33:233][601]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.25.33:233][601]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.25.33:315][601]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.25.33:324][601]LogUObjectHash: Compacting FUObjectHashTables data took   6.49ms
-[2020.01.21-19.25.33:795][608]LogPlayLevel: Display: Destroying online subsystem :Context_8
-[2020.01.21-19.25.45:862][906]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.26.44:356][502]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnDB7A413447106161D38D24AF8CEE6E56.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.26.45:220][531]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn7C7EA78D45B8220FF56D86BE14A8D8E7.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.26.46:596][603]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.26.46:663][603]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.26.46:663][603]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.01.21-19.26.46:672][603]LogPlayLevel: [PlayLevel] Compiling BP_ARPawn before play...
-[2020.01.21-19.26.47:033][603]LogUObjectHash: Compacting FUObjectHashTables data took   4.41ms
-[2020.01.21-19.26.47:033][603]LogPlayLevel: PlayLevel: Blueprint regeneration took 370 ms (1 blueprints)
-[2020.01.21-19.26.47:034][603]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:26:47 AM)
-[2020.01.21-19.26.47:034][603]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.26.47:054][603]LogPlayLevel: PIE: StaticDuplicateObject took: (0.019858s)
-[2020.01.21-19.26.47:055][603]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.26.47:055][603]LogPlayLevel: PIE: World Init took: (0.001401s)
-[2020.01.21-19.26.47:055][603]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.021409s)
-[2020.01.21-19.26.47:096][603]LogUObjectHash: Compacting FUObjectHashTables data took   3.01ms
-[2020.01.21-19.26.47:112][603]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.26.47:131][603]LogInit: FAudioDevice initialized.
-[2020.01.21-19.26.47:144][603]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.26.47:145][603]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.26.47
-[2020.01.21-19.26.47:146][603]LogWorld: Bringing up level for play took: 0.000937
-[2020.01.21-19.26.47:146][603]LogOnline: OSS: Creating online subsystem instance for: :Context_9
-[2020.01.21-19.26.47:151][603]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.26.47:151][603]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.09
-[2020.01.21-19.26.47:151][603]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.26.59:376][950]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.26.59:506][954]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.26.59:507][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.26.59:507][954]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.26.59:507][954]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.26.59:573][954]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.26.59:574][954]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.26.59:650][954]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.26.59:658][954]LogUObjectHash: Compacting FUObjectHashTables data took   5.43ms
-[2020.01.21-19.27.00:190][961]LogPlayLevel: Display: Destroying online subsystem :Context_9
-[2020.01.21-19.27.01:389][988]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.27.01:441][988]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.28.37:666][  7]LogUObjectHash: Compacting FUObjectHashTables data took   4.71ms
-[2020.01.21-19.28.37:666][  7]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/HandheldARBlankMap' took 0.038
-[2020.01.21-19.28.37:668][  7]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn] ([1] browsable assets)...
-[2020.01.21-19.28.37:668][  7]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn]
-[2020.01.21-19.28.37:745][  7]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn_Auto23610B8E24CE13DC2FEDD8581FB4F260A.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Autosaves/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn_Auto2.uasset'
-[2020.01.21-19.28.37:747][  7]LogFileHelpers: Auto-saving content packages took 0.080
-[2020.01.21-19.29.52:169][ 83]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnD0A5F21A49984E6EF1E984A4E9B3F848.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.29.53:551][147]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn55B223DF4FAAF3A736590F85BABEC535.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.29.54:246][182]BlueprintLog: New page: Compile BP_ARPawn
-[2020.01.21-19.29.54:657][182]LogUObjectHash: Compacting FUObjectHashTables data took   5.94ms
-[2020.01.21-19.29.57:513][344]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.29.57:539][344]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.29.57:539][344]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.21-19.29.57:539][344]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:29:57 AM)
-[2020.01.21-19.29.57:539][344]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.29.57:562][344]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022504s)
-[2020.01.21-19.29.57:563][344]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.29.57:563][344]LogPlayLevel: PIE: World Init took: (0.001467s)
-[2020.01.21-19.29.57:563][344]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.024151s)
-[2020.01.21-19.29.57:607][344]LogUObjectHash: Compacting FUObjectHashTables data took   4.88ms
-[2020.01.21-19.29.57:624][344]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.29.57:647][344]LogInit: FAudioDevice initialized.
-[2020.01.21-19.29.57:660][344]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.29.57:661][344]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.29.57
-[2020.01.21-19.29.57:661][344]LogWorld: Bringing up level for play took: 0.000838
-[2020.01.21-19.29.57:661][344]LogOnline: OSS: Creating online subsystem instance for: :Context_10
-[2020.01.21-19.29.57:666][344]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.29.57:667][344]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.426
-[2020.01.21-19.29.57:667][344]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.30.00:072][423]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0078
-[2020.01.21-19.30.00:072][423]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.30.01:943][487]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0078
-[2020.01.21-19.30.01:944][487]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.30.03:607][543]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0078
-[2020.01.21-19.30.03:607][543]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.30.04:353][568]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0078
-[2020.01.21-19.30.04:354][568]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.30.04:623][577]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0078
-[2020.01.21-19.30.04:623][577]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.30.06:343][634]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.30.06:377][635]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.30.06:378][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.30.06:378][635]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.30.06:378][635]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.30.06:446][635]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.30.06:446][635]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.30.06:517][635]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.30.06:524][635]LogUObjectHash: Compacting FUObjectHashTables data took   4.52ms
-[2020.01.21-19.30.06:926][642]LogPlayLevel: Display: Destroying online subsystem :Context_10
-[2020.01.21-19.30.10:378][738]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.30.10:458][738]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.31.05:031][171]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnBE08A80D4B2888BB0FCD7381D866946A.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.31.17:127][627]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn628754CE42E0672330C28194954B7443.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.31.17:827][653]BlueprintLog: New page: Compile BP_ARPawn
-[2020.01.21-19.31.18:266][653]LogUObjectHash: Compacting FUObjectHashTables data took   8.44ms
-[2020.01.21-19.31.19:962][742]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.31.20:046][742]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.31.20:046][742]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.21-19.31.20:046][742]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:31:20 AM)
-[2020.01.21-19.31.20:046][742]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.31.20:088][742]LogPlayLevel: PIE: StaticDuplicateObject took: (0.041605s)
-[2020.01.21-19.31.20:090][742]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.31.20:090][742]LogPlayLevel: PIE: World Init took: (0.002186s)
-[2020.01.21-19.31.20:091][742]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.044133s)
-[2020.01.21-19.31.20:161][742]LogUObjectHash: Compacting FUObjectHashTables data took   7.85ms
-[2020.01.21-19.31.20:186][742]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.31.20:217][742]LogInit: FAudioDevice initialized.
-[2020.01.21-19.31.20:230][742]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.31.20:231][742]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.31.20
-[2020.01.21-19.31.20:231][742]LogWorld: Bringing up level for play took: 0.000960
-[2020.01.21-19.31.20:232][742]LogOnline: OSS: Creating online subsystem instance for: :Context_11
-[2020.01.21-19.31.20:239][742]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.31.20:239][742]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.999
-[2020.01.21-19.31.20:239][742]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.31.26:565][919]LogScript: Warning: Accessed None trying to read property SelectedActor
-	BP_ARPawn_C /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.BP_ARPawn_C_0
-	Function /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn_C:Deselect:0059
-[2020.01.21-19.31.26:566][919]PIE: Error: Blueprint Runtime Error: "Accessed None trying to read property SelectedActor". Blueprint:  BP_ARPawn Function:  Deselect Graph:  ForEachLoop Node:  Branch
-[2020.01.21-19.31.31:963][ 70]LogBlueprintUserMessages: [FadeComponent] true
-[2020.01.21-19.31.31:965][ 70]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.31.34:050][130]LogBlueprintUserMessages: [FadeComponent] false
-[2020.01.21-19.31.37:832][233]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.31.37:869][234]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.31.37:870][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.31.37:870][234]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.31.37:870][234]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.31.37:959][234]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.31.37:959][234]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.31.38:043][234]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.31.38:052][234]LogUObjectHash: Compacting FUObjectHashTables data took   6.84ms
-[2020.01.21-19.31.38:514][241]LogPlayLevel: Display: Destroying online subsystem :Context_11
-[2020.01.21-19.31.51:123][587]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.31.51:131][587]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.31.52:664][669]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.31.52:741][669]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.31.52:741][669]LogPlayLevel: PlayLevel: No blueprints needed recompiling
-[2020.01.21-19.31.52:742][669]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:31:52 AM)
-[2020.01.21-19.31.52:742][669]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.31.52:787][669]LogPlayLevel: PIE: StaticDuplicateObject took: (0.044709s)
-[2020.01.21-19.31.52:789][669]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.31.52:792][669]LogPlayLevel: PIE: World Init took: (0.005410s)
-[2020.01.21-19.31.52:792][669]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.050452s)
-[2020.01.21-19.31.52:864][669]LogUObjectHash: Compacting FUObjectHashTables data took   5.49ms
-[2020.01.21-19.31.52:886][669]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.31.52:915][669]LogInit: FAudioDevice initialized.
-[2020.01.21-19.31.52:928][669]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.31.52:929][669]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.31.52
-[2020.01.21-19.31.52:930][669]LogWorld: Bringing up level for play took: 0.001216
-[2020.01.21-19.31.52:930][669]LogOnline: OSS: Creating online subsystem instance for: :Context_12
-[2020.01.21-19.31.52:935][669]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.31.52:936][669]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap -0.304
-[2020.01.21-19.31.52:936][669]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.32.03:250][951]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.32.03:291][952]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.32.03:292][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.32.03:292][952]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.32.03:293][952]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.32.03:379][952]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.32.03:380][952]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.32.03:470][952]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.32.03:478][952]LogUObjectHash: Compacting FUObjectHashTables data took   5.76ms
-[2020.01.21-19.32.03:920][959]LogPlayLevel: Display: Destroying online subsystem :Context_12
-[2020.01.21-19.32.05:113][985]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.32.05:168][985]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.33.07:670][430]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn26D4EE9F472846F0D1FB5DA676798B89.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
-[2020.01.21-19.33.10:874][576]LogTemp: Repeating last play command: Selected Viewport
-[2020.01.21-19.33.10:948][576]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.33.10:949][576]BlueprintLog: New page: Pre-Play auto-recompile
-[2020.01.21-19.33.10:958][576]LogPlayLevel: [PlayLevel] Compiling BP_ARPawn before play...
-[2020.01.21-19.33.11:398][576]LogUObjectHash: Compacting FUObjectHashTables data took   4.86ms
-[2020.01.21-19.33.11:398][576]LogPlayLevel: PlayLevel: Blueprint regeneration took 449 ms (1 blueprints)
-[2020.01.21-19.33.11:398][576]PIE: New page: PIE session: HandheldARBlankMap (Jan 21, 2020, 3:33:11 AM)
-[2020.01.21-19.33.11:398][576]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.33.11:418][576]LogPlayLevel: PIE: StaticDuplicateObject took: (0.020038s)
-[2020.01.21-19.33.11:420][576]LogAIModule: Creating AISystem for world HandheldARBlankMap
-[2020.01.21-19.33.11:420][576]LogPlayLevel: PIE: World Init took: (0.001301s)
-[2020.01.21-19.33.11:420][576]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.021514s)
-[2020.01.21-19.33.11:458][576]LogUObjectHash: Compacting FUObjectHashTables data took   3.14ms
-[2020.01.21-19.33.11:472][576]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
-[2020.01.21-19.33.11:493][576]LogInit: FAudioDevice initialized.
-[2020.01.21-19.33.11:503][576]LogLoad: Game class is 'BP_ARGameMode_C'
-[2020.01.21-19.33.11:504][576]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.21-11.33.11
-[2020.01.21-19.33.11:505][576]LogWorld: Bringing up level for play took: 0.001264
-[2020.01.21-19.33.11:505][576]LogOnline: OSS: Creating online subsystem instance for: :Context_13
-[2020.01.21-19.33.11:509][576]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
-[2020.01.21-19.33.11:510][576]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.27
-[2020.01.21-19.33.11:510][576]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.33.16:603][715]LogSlate: FSceneViewport::OnFocusLost() reason 0
-[2020.01.21-19.33.16:641][716]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.33.16:642][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.33.16:642][716]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
-[2020.01.21-19.33.16:643][716]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
-[2020.01.21-19.33.16:731][716]LogPlayLevel: Display: Shutting down PIE online subsystems
-[2020.01.21-19.33.16:731][716]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
-[2020.01.21-19.33.16:831][716]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
-[2020.01.21-19.33.16:840][716]LogUObjectHash: Compacting FUObjectHashTables data took   7.25ms
-[2020.01.21-19.33.17:277][723]LogPlayLevel: Display: Destroying online subsystem :Context_13
-[2020.01.21-19.33.18:198][743]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.33.18:252][743]LogSlate: Window 'Message Log' being destroyed
-[2020.01.21-19.33.20:874][832]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawnC539A8EE4B249D70968C3EB62467409C.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.VSync:0]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.RHICmdBypass:0]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.GPUCrashDebugging:0]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.MobileHDR:1]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.Mobile.DisableVertexFog:1]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxMobileCascades:2]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.MobileMSAA:1]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.DiscardUnusedQuality:0]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.AllowOcclusionQueries:1]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForLights:0.030000]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForDepthPrepass:0.030000]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.MinScreenRadiusForCSMDepth:0.010000]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.PrecomputedVisibilityWarning:0]]
+[2020.01.27-18.07.40:283][  0]LogConfig: Setting CVar [[r.TextureStreaming:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[Compat.UseDXT5NormalMaps:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.ClearCoatNormal:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.ReflectionCaptureResolution:128]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.ReflectionEnvironmentLightmapMixBasedOnRoughness:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.ForwardShading:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.VertexFoggingForOpaque:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.AllowStaticLighting:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.NormalMapsForStaticLighting:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.GenerateMeshDistanceFields:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.EightBit:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.GenerateLandscapeGIData:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DistanceFieldBuild.Compress:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.TessellationAdaptivePixelsPerTriangle:48.000000]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.SeparateTranslucency:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.TranslucentSortPolicy:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.CustomDepth:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.CustomDepthTemporalAAJitter:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.PostProcessing.PropagateAlpha:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.UsePreExposure:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.Bloom:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusion:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.AmbientOcclusionStaticFraction:1]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.AutoExposure.Method:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.MotionBlur:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.DefaultFeature.LensFlare:0]]
+[2020.01.27-18.07.40:284][  0]LogConfig: Setting CVar [[r.TemporalAA.Upsampling:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.DefaultFeature.AntiAliasing:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.Shadow.UnbuiltPreviewInGame:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.StencilForLODDither:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.EarlyZPass:3]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.EarlyZPassOnlyMaterialMasking:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.DBuffer:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.ClearSceneMethod:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.BasePassOutputsVelocity:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.SelectiveBasePassOutputs:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.AllowGlobalClipPlane:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.GBufferFormat:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.MorphTarget.Mode:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[vr.InstancedStereo:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[vr.MultiView:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[vr.MobileMultiView:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[vr.MobileMultiView.Direct:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.WireframeCullThreshold:5.000000]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.SupportStationarySkylight:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.SupportLowQualityLightmaps:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.SupportPointLightWholeSceneShadows:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.SupportAtmosphericFog:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.SkinCache.CompileShaders:0]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.Mobile.EnableStaticAndCSMShadowReceivers:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.Mobile.EnableMovableLightCSMShaderCulling:1]]
+[2020.01.27-18.07.40:285][  0]LogConfig: Setting CVar [[r.Mobile.AllowDistanceFieldShadows:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.Mobile.AllowMovableDirectionalLights:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.MobileNumDynamicPointLights:4]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.MobileDynamicPointLightsUseStaticBranch:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.SkinCache.SceneMemoryLimitInMB:128.000000]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.GPUSkin.Limit2BoneInfluences:0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.SupportDepthOnlyIndexBuffers:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[r.SupportReversedIndexBuffers:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.RendererOverrideSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:286][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.StreamingSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.MinBulkDataSizeForAsyncLoading:131072]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.AsyncLoadingThreadEnabled:0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.EventDrivenLoaderEnabled:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.WarnIfTimeLimitExceeded:0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMultiplier:1.5]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.TimeLimitExceededMinTime:0.005]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.UseBackgroundLevelStreaming:1]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.PriorityAsyncLoadingExtraTime:15.0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.LevelStreamingActorsUpdateTimeLimit:5.0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.PriorityLevelStreamingActorsUpdateExtraTime:5.0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsRegistrationGranularity:10]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.UnregisterComponentsTimeLimit:1.0]]
+[2020.01.27-18.07.40:286][  0]LogConfig: Setting CVar [[s.LevelStreamingComponentsUnregistrationGranularity:5]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.GarbageCollectionSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.MaxObjectsNotConsideredByGC:1]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.SizeOfPermanentObjectPool:0]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.FlushStreamingOnGC:0]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.NumRetriesBeforeForcingGC:10]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.AllowParallelGC:1]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.TimeBetweenPurgingPendingKillObjects:61.1]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.MaxObjectsInEditor:16777216]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.IncrementalBeginDestroyEnabled:1]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.CreateGCClusters:1]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.MinGCClusterSize:5]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.ActorClusteringEnabled:0]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.BlueprintClusteringEnabled:0]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Setting CVar [[gc.UseDisregardForGCOnDedicatedServers:0]]
+[2020.01.27-18.07.40:287][  0]LogConfig: Applying CVar settings from Section [/Script/Engine.NetworkSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:287][  0]LogConfig: Applying CVar settings from Section [/Script/UnrealEd.CookerSettings] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:293][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:293][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.27-18.07.40:293][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.27-18.07.40:293][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:293][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.27-18.07.40:293][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.27-18.07.40:294][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.27-18.07.40:295][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:295][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.27-18.07.40:296][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.27-18.07.40:297][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.27-18.07.40:297][  0]LogInit: Applying CVar settings loaded from the selected device profile: [Windows]
+[2020.01.27-18.07.40:316][  0]LogHAL: Display: Platform has ~ 8 GB [8483405824 / 8589934592 / 8], which maps to Default [LargestMinGB=32, LargerMinGB=12, DefaultMinGB=8, SmallerMinGB=6, SmallestMinGB=0)
+[2020.01.27-18.07.40:316][  0]LogInit: Going up to parent DeviceProfile []
+[2020.01.27-18.07.40:316][  0]LogConfig: Applying CVar settings from Section [ViewDistanceQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:316][  0]LogConfig: Setting CVar [[r.SkeletalMeshLODBias:0]]
+[2020.01.27-18.07.40:316][  0]LogConfig: Setting CVar [[r.ViewDistanceScale:1.0]]
+[2020.01.27-18.07.40:316][  0]LogConfig: Applying CVar settings from Section [AntiAliasingQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:316][  0]LogConfig: Setting CVar [[r.PostProcessAAQuality:4]]
+[2020.01.27-18.07.40:316][  0]LogConfig: Applying CVar settings from Section [ShadowQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:317][  0]LogConfig: Setting CVar [[r.LightFunctionQuality:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.ShadowQuality:5]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.CSM.MaxCascades:10]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.MaxResolution:2048]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.MaxCSMResolution:2048]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.RadiusThreshold:0.01]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.DistanceScale:1.0]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.CSM.TransitionScale:1.0]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Shadow.PreShadowResolutionFactor:1.0]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DistanceFieldShadowing:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DistanceFieldAO:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.AOQuality:2]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.VolumetricFog:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridPixelSize:8]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.VolumetricFog.GridSizeZ:128]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.VolumetricFog.HistoryMissSupersampleCount:4]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.LightMaxDrawDistanceScale:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.CapsuleShadows:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Applying CVar settings from Section [PostProcessQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.MotionBlurQuality:4]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMipLevelFactor:0.4]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionMaxQuality:100]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionLevels:-1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.AmbientOcclusionRadiusScale:1.0]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DepthOfFieldQuality:2]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.RenderTargetPoolMin:400]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.LensFlareQuality:2]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.SceneColorFringeQuality:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.EyeAdaptationQuality:2]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.BloomQuality:5]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.FastBlurThreshold:100]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Upscale.Quality:3]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Tonemapper.GrainQuantization:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.LightShaftQuality:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Filter.SizeScale:1]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.Tonemapper.Quality:5]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.AccumulatorQuality:1        ; higher gathering accumulator quality]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.PostfilterMethod:1          ; Median3x3 postfilering method]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.EnableBokehSettings:0       ; no bokeh simulation when gathering]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Gather.RingCount:4                 ; medium number of samples when gathering]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.ForegroundCompositing:1    ; additive foreground scattering]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.BackgroundCompositing:2    ; additive background scattering]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.EnableBokehSettings:1      ; bokeh simulation when scattering]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Scatter.MaxSpriteRatio:0.1         ; only a maximum of 10% of scattered bokeh]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Recombine.Quality:1                ; cheap slight out of focus]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Recombine.EnableBokehSettings:0    ; no bokeh simulation on slight out of focus]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.TemporalAAQuality:1                ; more stable temporal accumulation]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxForegroundRadius:0.025]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Setting CVar [[r.DOF.Kernel.MaxBackgroundRadius:0.025]]
+[2020.01.27-18.07.40:318][  0]LogConfig: Applying CVar settings from Section [TextureQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:319][  0]LogConfig: Setting CVar [[r.Streaming.MipBias:0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.Streaming.AmortizeCPUToGPUCopy:0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.Streaming.MaxNumTexturesToStreamPerFrame:0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.Streaming.Boost:1]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.MaxAnisotropy:8]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.Streaming.LimitPoolSizeToVRAM:0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.Streaming.PoolSize:1000]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.Streaming.MaxEffectiveScreenSize:0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Applying CVar settings from Section [EffectsQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.TranslucencyLightingVolumeDim:64]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.RefractionQuality:2]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.SSR.Quality:3]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.SceneColorFormat:4]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.DetailMode:2]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.TranslucencyVolumeBlur:1]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.MaterialQualityLevel:1 ; High quality]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.SSS.Scale:1]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.SSS.SampleSet:2]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.SSS.Quality:1]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.SSS.HalfRes:1]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.EmitterSpawnRateScale:1.0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[r.ParticleLightQuality:2]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Applying CVar settings from Section [FoliageQuality@3] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Scalability.ini]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[foliage.DensityScale:1.0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[grass.DensityScale:1.0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Applying CVar settings from Section [Startup] File [../../../Engine/Config/ConsoleVariables.ini]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[net.UseAdaptiveNetUpdateFrequency:0]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Setting CVar [[p.chaos.AllowCreatePhysxBodies:1]]
+[2020.01.27-18.07.40:320][  0]LogConfig: Applying CVar settings from Section [ConsoleVariables] File [C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Config/Windows/Engine.ini]
+[2020.01.27-18.07.40:320][  0]LogInit: Computer: DESKTOP-83S7T9K
+[2020.01.27-18.07.40:320][  0]LogInit: User: Darica
+[2020.01.27-18.07.40:321][  0]LogInit: CPU Page size=4096, Cores=2
+[2020.01.27-18.07.40:321][  0]LogInit: High frequency timer resolution =10.000000 MHz
+[2020.01.27-18.07.40:321][  0]LogMemory: Memory total: Physical=7.9GB (8GB approx)
+[2020.01.27-18.07.40:321][  0]LogMemory: Platform Memory Stats for Windows
+[2020.01.27-18.07.40:321][  0]LogMemory: Process Physical Memory: 101.27 MB used, 101.27 MB peak
+[2020.01.27-18.07.40:321][  0]LogMemory: Process Virtual Memory: 100.11 MB used, 100.11 MB peak
+[2020.01.27-18.07.40:321][  0]LogMemory: Physical Memory: 7163.23 MB used,  927.17 MB free, 8090.41 MB total
+[2020.01.27-18.07.40:321][  0]LogMemory: Virtual Memory: 4654.13 MB used,  134213072.00 MB free, 134217728.00 MB total
+[2020.01.27-18.07.40:330][  0]LogWindows: WindowsPlatformFeatures enabled
+[2020.01.27-18.07.40:388][  0]LogInit: Using OS detected language (en-US).
+[2020.01.27-18.07.40:388][  0]LogInit: Using OS detected locale (en-US).
+[2020.01.27-18.07.40:390][  0]LogTextLocalizationManager: No specific localization for 'en-US' exists, so the 'en' localization will be used.
+[2020.01.27-18.07.40:747][  0]LogInit: Setting process to per monitor DPI aware
+[2020.01.27-18.07.40:810][  0]LogSlate: New Slate User Created.  User Index 0, Is Virtual User: 0
+[2020.01.27-18.07.40:810][  0]LogSlate: Slate User Registered.  User Index 0, Is Virtual User: 0
+[2020.01.27-18.07.41:090][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.27-18.07.41:090][  0]LogD3D11RHI: D3D11 adapters:
+[2020.01.27-18.07.41:100][  0]LogD3D11RHI:    0. 'Intel(R) HD Graphics 520' (Feature Level 11_0)
+[2020.01.27-18.07.41:100][  0]LogD3D11RHI:       128/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:1, VendorId:0x8086
+[2020.01.27-18.07.41:103][  0]LogD3D11RHI:    1. 'Microsoft Basic Render Driver' (Feature Level 11_0)
+[2020.01.27-18.07.41:103][  0]LogD3D11RHI:       0/0/4045 MB DedicatedVideo/DedicatedSystem/SharedSystem, Outputs:0, VendorId:0x1414
+[2020.01.27-18.07.41:103][  0]LogD3D11RHI: Chosen D3D11 Adapter: 0
+[2020.01.27-18.07.41:113][  0]LogD3D11RHI: Creating new Direct3DDevice
+[2020.01.27-18.07.41:114][  0]LogD3D11RHI:     GPU DeviceId: 0x1916 (for the marketing name, search the web for "GPU Device Id")
+[2020.01.27-18.07.41:114][  0]LogWindows: EnumDisplayDevices:
+[2020.01.27-18.07.41:114][  0]LogWindows:    0. 'Intel(R) HD Graphics 520' (P:1 D:1)
+[2020.01.27-18.07.41:114][  0]LogWindows:    1. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.01.27-18.07.41:115][  0]LogWindows:    2. 'Intel(R) HD Graphics 520' (P:0 D:0)
+[2020.01.27-18.07.41:115][  0]LogWindows: DebugString: FoundDriverCount:3 
+[2020.01.27-18.07.41:115][  0]LogD3D11RHI:     Adapter Name: Intel(R) HD Graphics 520
+[2020.01.27-18.07.41:115][  0]LogD3D11RHI:   Driver Version: 21.20.16.4574 (internal:21.20.16.4574, unified:21.20.16.4574)
+[2020.01.27-18.07.41:115][  0]LogD3D11RHI:      Driver Date: 12-23-2016
+[2020.01.27-18.07.41:115][  0]LogRHI: Texture pool is 1505 MB (70% of 2150 MB)
+[2020.01.27-18.07.41:122][  0]LogD3D11RHI: Async texture creation enabled
+[2020.01.27-18.07.41:132][  0]LogD3D11RHI: GPU Timing Frequency: 12.000000 (Debug: 2 0)
+[2020.01.27-18.07.41:627][  0]LogTemp: Display: Module 'AllDesktopTargetPlatform' loaded TargetPlatform 'AllDesktop'
+[2020.01.27-18.07.41:650][  0]LogTemp: Display: Module 'MacClientTargetPlatform' loaded TargetPlatform 'MacClient'
+[2020.01.27-18.07.41:667][  0]LogTemp: Display: Module 'MacNoEditorTargetPlatform' loaded TargetPlatform 'MacNoEditor'
+[2020.01.27-18.07.41:683][  0]LogTemp: Display: Module 'MacServerTargetPlatform' loaded TargetPlatform 'MacServer'
+[2020.01.27-18.07.41:700][  0]LogTemp: Display: Module 'MacTargetPlatform' loaded TargetPlatform 'Mac'
+[2020.01.27-18.07.41:717][  0]LogTemp: Display: Module 'WindowsClientTargetPlatform' loaded TargetPlatform 'WindowsClient'
+[2020.01.27-18.07.41:733][  0]LogTemp: Display: Module 'WindowsNoEditorTargetPlatform' loaded TargetPlatform 'WindowsNoEditor'
+[2020.01.27-18.07.41:745][  0]LogTemp: Display: Module 'WindowsServerTargetPlatform' loaded TargetPlatform 'WindowsServer'
+[2020.01.27-18.07.41:751][  0]LogTemp: Display: Module 'WindowsTargetPlatform' loaded TargetPlatform 'Windows'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTC'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATC'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXT'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1a'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTC'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'AndroidClient'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ASTCClient'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ATCClient'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_DXTClient'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1Client'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC1aClient'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_ETC2Client'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_PVRTCClient'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_Multi'
+[2020.01.27-18.07.41:796][  0]LogTemp: Display: Module 'AndroidTargetPlatform' loaded TargetPlatform 'Android_MultiClient'
+[2020.01.27-18.07.41:799][  0]LogTemp: Display: Module 'HTML5TargetPlatform' loaded TargetPlatform 'HTML5'
+[2020.01.27-18.07.41:821][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOSClient'
+[2020.01.27-18.07.41:821][  0]LogTemp: Display: Module 'IOSTargetPlatform' loaded TargetPlatform 'IOS'
+[2020.01.27-18.07.41:839][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOSClient'
+[2020.01.27-18.07.41:839][  0]LogTemp: Display: Module 'TVOSTargetPlatform' loaded TargetPlatform 'TVOS'
+[2020.01.27-18.07.41:849][  0]LogTemp: Display: Module 'LinuxClientTargetPlatform' loaded TargetPlatform 'LinuxClient'
+[2020.01.27-18.07.41:858][  0]LogTemp: Display: Module 'LinuxNoEditorTargetPlatform' loaded TargetPlatform 'LinuxNoEditor'
+[2020.01.27-18.07.41:867][  0]LogTemp: Display: Module 'LinuxServerTargetPlatform' loaded TargetPlatform 'LinuxServer'
+[2020.01.27-18.07.41:876][  0]LogTemp: Display: Module 'LinuxTargetPlatform' loaded TargetPlatform 'Linux'
+[2020.01.27-18.07.41:911][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'Lumin'
+[2020.01.27-18.07.41:911][  0]LogTemp: Display: Module 'LuminTargetPlatform' loaded TargetPlatform 'LuminClient'
+[2020.01.27-18.07.41:911][  0]LogTargetPlatformManager: Display: Building Assets For Windows
+[2020.01.27-18.07.41:925][  0]LogAudioDebug: Display: Lib vorbis DLL was dynamically loaded.
+[2020.01.27-18.07.41:997][  0]LogShaderCompilers: Guid format shader working directory is -20 characters bigger than the processId version (../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Intermediate/Shaders/WorkingDirectory/8840/).
+[2020.01.27-18.07.41:997][  0]LogShaderCompilers: Cleaned the shader compiler working directory 'C:/Users/Darica/AppData/Local/Temp/UnrealShaderWorkingDir/6301347D431FDFAAD00C0083D38EB73F/'.
+[2020.01.27-18.07.42:002][  0]LogXGEController: Cannot use XGE Controller as Incredibuild is not installed on this machine.
+[2020.01.27-18.07.42:003][  0]LogShaderCompilers: Cannot use XGE Shader Compiler as Incredibuild is not installed on this machine.
+[2020.01.27-18.07.42:003][  0]LogShaderCompilers: Display: Using Local Shader Compiler.
+[2020.01.27-18.07.42:814][  0]LogDerivedDataCache: Display: Max Cache Size: 512 MB
+[2020.01.27-18.07.42:894][  0]LogDerivedDataCache: Loaded boot cache 0.08s 89MB C:/Users/Darica/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.27-18.07.42:894][  0]LogDerivedDataCache: Display: Loaded Boot cache: C:/Users/Darica/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc
+[2020.01.27-18.07.42:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  Pak pak cache file ../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/DerivedDataCache/DDC.ddp not found, will not use a pak cache.
+[2020.01.27-18.07.42:894][  0]LogDerivedDataCache: Unable to find inner node Pak for hierarchical cache Hierarchy.
+[2020.01.27-18.07.42:894][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  CompressedPak pak cache file ../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.27-18.07.42:894][  0]LogDerivedDataCache: Unable to find inner node CompressedPak for hierarchical cache Hierarchy.
+[2020.01.27-18.07.42:907][  0]LogDerivedDataCache: Display: Pak cache opened for reading ../../../Engine/DerivedDataCache/Compressed.ddp.
+[2020.01.27-18.07.42:908][  0]LogDerivedDataCache: FDerivedDataBackendGraph:  EnterprisePak pak cache file ../../../Enterprise/DerivedDataCache/Compressed.ddp not found, will not use a pak cache.
+[2020.01.27-18.07.42:908][  0]LogDerivedDataCache: Unable to find inner node EnterprisePak for hierarchical cache Hierarchy.
+[2020.01.27-18.07.42:909][  0]LogDerivedDataCache: Using Local data cache path C:/Users/Darica/AppData/Local/UnrealEngine/Common/DerivedDataCache: Writable
+[2020.01.27-18.07.42:909][  0]LogDerivedDataCache: Shared data cache path not found in *engine.ini, will not use an Shared cache.
+[2020.01.27-18.07.42:909][  0]LogDerivedDataCache: Unable to find inner node Shared for hierarchical cache Hierarchy.
+[2020.01.27-18.07.42:938][  0]LogMaterial: Verifying Global Shaders for PCD3D_SM5
+[2020.01.27-18.07.42:941][  0]LogSlate: Using FreeType 2.6.0
+[2020.01.27-18.07.42:941][  0]LogSlate: SlateFontServices - WITH_FREETYPE: 1, WITH_HARFBUZZ: 1
+[2020.01.27-18.07.43:012][  0]LogAssetRegistry: FAssetRegistry took 0.0030 seconds to start up
+[2020.01.27-18.07.43:367][  0]LogInit: Selected Device Profile: [Windows]
+[2020.01.27-18.07.43:549][  0]LogMeshReduction: Using QuadricMeshReduction for automatic static mesh reduction
+[2020.01.27-18.07.43:549][  0]LogMeshReduction: Using SimplygonMeshReduction for automatic skeletal mesh reduction
+[2020.01.27-18.07.43:549][  0]LogMeshReduction: Using ProxyLODMeshReduction for automatic mesh merging
+[2020.01.27-18.07.43:549][  0]LogMeshReduction: No distributed automatic mesh merging module available
+[2020.01.27-18.07.43:549][  0]LogMeshMerging: No distributed automatic mesh merging module available
+[2020.01.27-18.07.43:564][  0]LogNetVersion: ARTemplate 1.0.0, NetCL: 8386587, EngineNetVer: 11, GameNetVer: 0 (Checksum: 820814151)
+[2020.01.27-18.07.44:263][  0]LogPackageLocalizationCache: Processed 15 localized package path(s) for 1 prioritized culture(s) in 0.114439 seconds
+[2020.01.27-18.07.44:271][  0]LogUObjectArray: 44124 objects as part of root set at end of initial load.
+[2020.01.27-18.07.44:271][  0]LogUObjectAllocator: 7692616 out of 0 bytes used by permanent object pool.
+[2020.01.27-18.07.44:271][  0]LogUObjectArray: CloseDisregardForGC: 0/0 objects in disregard for GC pool
+[2020.01.27-18.07.45:263][  0]LogTcpMessaging: Initializing TcpMessaging bridge
+[2020.01.27-18.07.45:267][  0]LogUdpMessaging: Initializing bridge on interface 0.0.0.0:0 to multicast group 230.0.0.1:6666.
+[2020.01.27-18.07.45:391][  0]SourceControl: Source control is disabled
+[2020.01.27-18.07.45:391][  0]SourceControl: Source control is disabled
+[2020.01.27-18.07.45:393][  0]SourceControl: Source control is disabled
+[2020.01.27-18.07.45:394][  0]SourceControl: Source control is disabled
+[2020.01.27-18.07.45:502][  0]LogAndroidPermission: UAndroidPermissionCallbackProxy::GetInstance
+[2020.01.27-18.07.45:717][  0]LogOcInput: OculusInput pre-init called
+[2020.01.27-18.07.45:727][  0]LogWindows: Failed to load 'OVRPlugin.dll' (GetLastError=126)
+[2020.01.27-18.07.45:727][  0]LogWindows: File 'OVRPlugin.dll' does not exist
+[2020.01.27-18.07.45:814][  0]LogEngine: Initializing Engine...
+[2020.01.27-18.07.45:815][  0]LogHMD: Failed to initialize OpenVR with code 110
+[2020.01.27-18.07.45:821][  0]LogStats: UGameplayTagsManager::InitializeManager -  0.005 s
+[2020.01.27-18.07.46:101][  0]LogInit: Initializing FReadOnlyCVARCache
+[2020.01.27-18.07.46:122][  0]LogAIModule: Creating AISystem for world Untitled
+[2020.01.27-18.07.46:166][  0]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.27-18.07.46:207][  0]LogInit: FAudioDevice initialized.
+[2020.01.27-18.07.46:208][  0]LogNetVersion: Set ProjectVersion to 1.0.0.0. Version Checksum will be recalculated on next use.
+[2020.01.27-18.07.46:324][  0]LogDerivedDataCache: Saved boot cache 0.12s 89MB C:/Users/Darica/AppData/Local/UnrealEngine/4.23/DerivedDataCache/Boot.ddc.
+[2020.01.27-18.07.46:343][  0]LogInit: Texture streaming: Enabled
+[2020.01.27-18.07.46:370][  0]LogEngineSessionManager: EngineSessionManager initialized
+[2020.01.27-18.07.46:370][  0]LogEditorSessionSummary: Verbose: Initializing EditorSessionSummaryWriter for editor session tracking
+[2020.01.27-18.07.46:390][  0]LogEditorSessionSummary: EditorSessionSummaryWriter initialized
+[2020.01.27-18.07.46:466][  0]LogInit: Transaction tracking system initialized
+[2020.01.27-18.07.46:508][  0]BlueprintLog: New page: Editor Load
+[2020.01.27-18.07.46:612][  0]LocalizationService: Localization service is disabled
+[2020.01.27-18.07.47:610][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Content/' took 0.01s
+[2020.01.27-18.07.47:610][  0]LogCook: Display: Max memory allowance for cook 16384mb min free memory 0mb
+[2020.01.27-18.07.47:610][  0]LogCook: Display: Mobile HDR setting 1
+[2020.01.27-18.07.47:987][  0]SourceControl: Source control is disabled
+[2020.01.27-18.07.47:988][  0]Cmd: MAP LOAD FILE="../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap" TEMPLATE=0 SHOWPROGRESS=1 FEATURELEVEL=3
+[2020.01.27-18.07.47:988][  0]LightingResults: New page: Lighting Build
+[2020.01.27-18.07.47:992][  0]LogWorld: UWorld::CleanupWorld for Untitled, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-18.07.47:992][  0]MapCheck: New page: Map Check
+[2020.01.27-18.07.47:992][  0]LightingResults: New page: Lighting Build
+[2020.01.27-18.07.48:017][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.68ms
+[2020.01.27-18.07.48:257][  0]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.01.27-18.07.48:277][  0]LogEditorServer: Finished looking for orphan Actors (0.000 secs)
+[2020.01.27-18.07.48:317][  0]LogUObjectHash: Compacting FUObjectHashTables data took   2.43ms
+[2020.01.27-18.07.48:317][  0]Cmd: MAP CHECKDEP NOCLEARLOG
+[2020.01.27-18.07.48:317][  0]MapCheck: Map check complete: 0 Error(s), 0 Warning(s), took 0.2ms to complete.
+[2020.01.27-18.07.48:318][  0]LogFileHelpers: Loading map 'HandheldARBlankMap' took 0.330
+[2020.01.27-18.07.48:556][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-18.07.48:568][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-18.07.48:581][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-18.07.48:595][  0]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-18.07.48:619][  0]LogCollectionManager: Loaded 0 collections in 0.002575 seconds
+[2020.01.27-18.07.48:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Collections/' took 0.00s
+[2020.01.27-18.07.48:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Content/Developers/Darica/Collections/' took 0.00s
+[2020.01.27-18.07.48:643][  0]LogFileCache: Scanning file cache for directory 'C:/Users/Darica/Documents/Unreal Projects/ARTemplate/Content/Collections/' took 0.00s
+[2020.01.27-18.07.48:643][  0]LogCollectionManager: Rebuilt the GUID cache for 0 collections in 0.000003 seconds
+[2020.01.27-18.07.48:654][  0]LogContentBrowser: Native class hierarchy populated in 0.0100 seconds. Added 2957 classes and 723 folders.
+[2020.01.27-18.07.48:669][  0]LogContentBrowser: Native class hierarchy updated for 'WidgetCarousel' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.27-18.07.49:173][  0]LogContentBrowser: Native class hierarchy updated for 'AddContentDialog' in 0.0003 seconds. Added 0 classes and 0 folders.
+[2020.01.27-18.07.49:190][  0]LogContentBrowser: Native class hierarchy updated for 'SceneOutliner' in 0.0003 seconds. Added 1 classes and 2 folders.
+[2020.01.27-18.07.50:854][  0]LogSlate: Only BGRA pngs, bmps or icos are supported in by External Image Picker
+[2020.01.27-18.07.50:899][  0]LogSlate: Took 0.000253 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Regular.ttf' (155K)
+[2020.01.27-18.07.50:908][  0]LogSlate: Took 0.000255 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Bold.ttf' (160K)
+[2020.01.27-18.07.50:930][  0]LogSlate: Took 0.014816 seconds to synchronously load lazily loaded font '../../../Engine/Content/Editor/Slate/Fonts/FontAwesome.ttf' (139K)
+[2020.01.27-18.07.51:097][  0]LogRenderer: Reallocating scene render targets to support 1016x256 Format 10 NumSamples 1 (Frame:1).
+[2020.01.27-18.07.51:830][  0]LogContentBrowser: Native class hierarchy updated for 'HierarchicalLODOutliner' in 0.0002 seconds. Added 0 classes and 0 folders.
+[2020.01.27-18.07.51:831][  0]LogLoad: (Engine Initialization) Total time: 13.10 seconds
+[2020.01.27-18.07.51:831][  0]LogLoad: (Engine Initialization) Total Blueprint compile time: 0.00 seconds
+[2020.01.27-18.07.52:169][  0]LogContentStreaming: Texture pool size now 1000 MB
+[2020.01.27-18.07.53:439][  5]LogAssetRegistry: Asset discovery search completed in 10.4278 seconds
+[2020.01.27-18.07.53:447][  5]LogCollectionManager: Rebuilt the object cache for 0 collections in 0.000008 seconds (found 0 objects)
+[2020.01.27-18.07.53:447][  5]LogCollectionManager: Fixed up redirectors for 0 collections in 0.000121 seconds (updated 0 objects)
+[2020.01.27-18.07.55:403][ 61]LogSlate: Took 0.007196 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Light.ttf' (167K)
+[2020.01.27-18.09.02:936][600]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={CD44E4D7-4EA9-1089-A9DB-5396BCE195E5}
+[2020.01.27-18.18.19:030][408]LogEditorSessionSummary: EditorSessionSummary sent report. Type=Shutdown, SessionId={5A198F88-441C-9E5A-9BD1-99B4FAD38676}
+[2020.01.27-18.19.16:663][391]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.19.23:427][708]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.BP_ARPawn
+[2020.01.27-18.19.23:819][708]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/ARCoreUtils.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.01.27-18.19.23:827][708]LogLinker: Warning: Asset '../../Plugins/Runtime/AR/Google/GoogleARCore/Content/CameraTextureUVParams.uasset' has been saved with empty engine version. The asset will be loaded but may be incompatible.
+[2020.01.27-18.19.23:967][708]LogContentBrowser: Native class hierarchy updated for 'BlueprintGraph' in 0.0017 seconds. Added 121 classes and 0 folders.
+[2020.01.27-18.19.25:362][708]LogSlate: Took 0.009467 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-BoldCondensed.ttf' (158K)
+[2020.01.27-18.19.25:526][709]LogSlate: Took 0.008880 seconds to synchronously load lazily loaded font '../../../Engine/Content/Slate/Fonts/Roboto-Italic.ttf' (157K)
+[2020.01.27-18.20.38:291][423]LogUObjectHash: Compacting FUObjectHashTables data took   7.29ms
+[2020.01.27-18.20.38:291][423]LogFileHelpers: Editor autosave (incl. sublevels) for '/Game/HandheldARBP/Maps/HandheldARBlankMap' took 0.155
+[2020.01.27-18.20.38:298][423]OBJ SavePackage: Generating thumbnails for [0] asset(s) in package [/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn] ([1] browsable assets)...
+[2020.01.27-18.20.38:298][423]OBJ SavePackage: Finished generating thumbnails for package [/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn]
+[2020.01.27-18.20.38:551][423]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn_Auto1E1C3456845A03DCD7B7D6084E079A5D5.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/Autosaves/Game/HandheldARBP/Blueprints/GameFramework/BP_ARPawn_Auto1.uasset'
+[2020.01.27-18.20.38:611][423]LogFileHelpers: Auto-saving content packages took 0.318
+[2020.01.27-18.21.14:480][311]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/BP_ARPawn9F76D5A8452BFB4CF1F66F8373E41910.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/GameFramework/BP_ARPawn.uasset'
+[2020.01.27-18.21.18:806][555]LogEditorViewport: Clicking on Actor (LMB): BP_PlaceableCone_C (BP_PlaceableCone2)
+[2020.01.27-18.21.23:196][790]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.22.09:505][372]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/Placeable/FadeComponent.FadeComponent
+[2020.01.27-18.23.18:854][616]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/FadeComponent42A069CC4B7B88CB917C808892D74812.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/Placeable/FadeComponent.uasset'
+[2020.01.27-18.23.19:623][633]LogUObjectHash: Compacting FUObjectHashTables data took   3.41ms
+[2020.01.27-18.23.20:006][633]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap9E76BB8D4397377F5F5943AE98CFFFB6.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.01.27-18.23.20:119][633]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltData3108674B4CF75BBF65DE18B083FE9B71.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.01.27-18.23.23:149][718]LogSlate: Window 'FadeComponent' being destroyed
+[2020.01.27-18.23.23:200][718]LogWorld: UWorld::CleanupWorld for World_5, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-18.23.25:186][784]LogEditorViewport: Clicking Background
+[2020.01.27-18.23.25:961][819]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.23.26:100][826]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-18.23.26:171][826]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.27-18.23.26:172][826]BlueprintLog: New page: Pre-Play auto-recompile
+[2020.01.27-18.23.26:193][826]LogPlayLevel: [PlayLevel] Compiling FadeComponent before play...
+[2020.01.27-18.23.26:213][826]LogBlueprint: Error: [Compiler FadeComponent] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.01.27-18.23.26:213][826]LogBlueprint: Error: [Compiler FadeComponent] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.01.27-18.23.26:214][826]LogBlueprint: Error: [Compiler FadeComponent] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.01.27-18.23.26:214][826]LogBlueprint: Error: [Compiler FadeComponent] This blueprint (self) is not a Actor, therefore ' Target ' must have a connection.
+[2020.01.27-18.23.26:448][826]LogPlayLevel: [PlayLevel] Compiling BP_ARPawn before play...
+[2020.01.27-18.23.26:753][826]LogUObjectHash: Compacting FUObjectHashTables data took   5.34ms
+[2020.01.27-18.23.26:754][826]LogPlayLevel: PlayLevel: Blueprint regeneration took 580 ms (2 blueprints)
+[2020.01.27-18.23.26:754][826]BlueprintLog: Warning: Blueprint failed to compile:  FadeComponent
+[2020.01.27-18.23.26:755][826]LogCustomDialog: Dialog displayed:
+[2020.01.27-18.23.29:505][826]LogSlate: Window 'Blueprint Compilation Errors' being destroyed
+[2020.01.27-18.23.31:245][895]LogSlate: Window 'Message Log' being destroyed
+[2020.01.27-18.23.31:250][895]LogSlate: Window 'Message Log' being destroyed
+[2020.01.27-18.23.34:748][963]LogAssetEditorManager: Opening Asset editor for Blueprint /Game/HandheldARBP/Blueprints/Placeable/FadeComponent.FadeComponent
+[2020.01.27-18.23.38:379][ 65]LogSlate: Window 'FadeComponent' being destroyed
+[2020.01.27-18.24.13:406][575]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/FadeComponentBEE3474F4259ABA08B5D62B639B5E4E0.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/Placeable/FadeComponent.uasset'
+[2020.01.27-18.24.47:448][ 37]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/FadeComponent0431A23443357BF1C55719ADB42B8BFC.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/Placeable/FadeComponent.uasset'
+[2020.01.27-18.24.47:937][ 50]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/FadeComponent061C89C641DBDF017C764681C3470F67.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Blueprints/Placeable/FadeComponent.uasset'
+[2020.01.27-18.24.48:488][ 75]BlueprintLog: New page: Compile FadeComponent
+[2020.01.27-18.24.48:871][ 75]LogUObjectHash: Compacting FUObjectHashTables data took   4.58ms
+[2020.01.27-18.24.51:348][185]LogUObjectHash: Compacting FUObjectHashTables data took   7.41ms
+[2020.01.27-18.24.51:650][185]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap1E93276144E830D517977E85A7A3F403.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.01.27-18.24.51:737][185]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltData2EA804ED42E1FE332E6344B692BE51C2.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
+[2020.01.27-18.24.52:367][219]LogTemp: Repeating last play command: Selected Viewport
+[2020.01.27-18.24.52:401][219]LogBlueprintUserMessages: Early PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.27-18.24.52:401][219]LogPlayLevel: PlayLevel: No blueprints needed recompiling
+[2020.01.27-18.24.52:411][219]PIE: New page: PIE session: HandheldARBlankMap (Jan 27, 2020, 2:24:52 AM)
+[2020.01.27-18.24.52:419][219]LogOnline: OSS: Creating online subsystem instance for: NULL
+[2020.01.27-18.24.52:423][219]LogPlayLevel: Creating play world package: /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.27-18.24.52:445][219]LogPlayLevel: PIE: StaticDuplicateObject took: (0.022163s)
+[2020.01.27-18.24.52:447][219]LogAIModule: Creating AISystem for world HandheldARBlankMap
+[2020.01.27-18.24.52:447][219]LogPlayLevel: PIE: World Init took: (0.002356s)
+[2020.01.27-18.24.52:448][219]LogPlayLevel: PIE: Created PIE world by copying editor world from /Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap to /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap (0.025168s)
+[2020.01.27-18.24.52:491][219]LogUObjectHash: Compacting FUObjectHashTables data took   4.42ms
+[2020.01.27-18.24.52:511][219]LogInit: XAudio2 using 'Speaker/HP (Realtek High Definition Audio)' : 2 channels at 48 kHz using 32 bits per sample (channel mask 0x3)
+[2020.01.27-18.24.52:536][219]LogInit: FAudioDevice initialized.
+[2020.01.27-18.24.52:593][219]LogLoad: Game class is 'BP_ARGameMode_C'
+[2020.01.27-18.24.52:604][219]LogWorld: Bringing World /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap.HandheldARBlankMap up for play (max tick rate 0) at 2020.01.27-10.24.52
+[2020.01.27-18.24.52:611][219]LogWorld: Bringing up level for play took: 0.006823
+[2020.01.27-18.24.52:613][219]LogOnline: OSS: Creating online subsystem instance for: :Context_8
+[2020.01.27-18.24.52:648][219]LogContentBrowser: Native class hierarchy updated for 'MovieSceneCapture' in 0.0008 seconds. Added 20 classes and 0 folders.
+[2020.01.27-18.24.52:674][219]PIE: Warning: The widget 'BP_DebugMenu_C' was already added to the screen.
+[2020.01.27-18.24.52:674][219]PIE: Play in editor start time for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap 0.682
+[2020.01.27-18.24.52:675][219]LogBlueprintUserMessages: Late PlayInEditor Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.27-18.24.58:379][376]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.24.59:692][415]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.27-18.25.04:514][564]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.27-18.25.04:519][564]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.25.08:402][677]LogBlueprintUserMessages: [FadeComponent] true
+[2020.01.27-18.25.08:403][677]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.25.10:650][744]LogBlueprintUserMessages: [FadeComponent] false
+[2020.01.27-18.25.14:168][845]LogSlate: FSceneViewport::OnFocusLost() reason 0
+[2020.01.27-18.25.15:807][888]LogBlueprintUserMessages: Early EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.27-18.25.15:809][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-18.25.15:809][888]LogWorld: BeginTearingDown for /Game/HandheldARBP/Maps/UEDPIE_0_HandheldARBlankMap
+[2020.01.27-18.25.15:809][888]LogWorld: UWorld::CleanupWorld for HandheldARBlankMap, bSessionEnded=true, bCleanupResources=true
+[2020.01.27-18.25.15:844][888]LogPlayLevel: Display: Shutting down PIE online subsystems
+[2020.01.27-18.25.15:845][888]LogBlueprintUserMessages: Late EndPlayMap Detection: Level '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel' has LevelScriptBlueprint '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap' with GeneratedClass '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap_C' with ClassGeneratedBy '/Game/HandheldARBP/Maps/HandheldARBlankMap.HandheldARBlankMap:PersistentLevel.HandheldARBlankMap'
+[2020.01.27-18.25.16:028][888]LogSlate: Updating window title bar state: overlay mode, drag disabled, window buttons hidden, title bar hidden
+[2020.01.27-18.25.16:123][888]LogUObjectHash: Compacting FUObjectHashTables data took  12.99ms
+[2020.01.27-18.25.16:562][895]LogPlayLevel: Display: Destroying online subsystem :Context_8
+[2020.01.27-18.25.17:130][908]LogSlate: Window 'Message Log' being destroyed
+[2020.01.27-18.25.17:195][908]LogSlate: Window 'Message Log' being destroyed
+[2020.01.27-18.25.18:797][963]LogUObjectHash: Compacting FUObjectHashTables data took   8.24ms
+[2020.01.27-18.25.19:227][963]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap1040D1BA430E7628944007ADCFF44221.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap.umap'
+[2020.01.27-18.25.19:326][963]LogSavePackage: Moving '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Saved/HandheldARBlankMap_BuiltData5027E9FD47B74A7C0ED5F985F2F7B2C3.tmp' to '../../../../../../Users/Darica/Documents/Unreal Projects/ARTemplate/Content/HandheldARBP/Maps/HandheldARBlankMap_BuiltData.uasset'
