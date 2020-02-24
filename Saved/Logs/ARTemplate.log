@@ -1,4 +1,4 @@
-﻿Log file open, 02/24/20 13:17:06
+﻿Log file open, 02/24/20 13:59:57
 LogWindows: Failed to load 'aqProf.dll' (GetLastError=126)
 LogWindows: File 'aqProf.dll' does not exist
 LogWindows: Failed to load 'VtuneApi.dll' (GetLastError=126)
@@ -9,7 +9,7 @@ LogConsoleResponse: Display: Failed to find resolution value strings in scalabil
 LogInit: Display: Running engine for game: ARTemplate
 LogPlatformFile: Not using cached read wrapper
 LogTaskGraph: Started task graph with 5 named threads and 11 total threads with 3 sets of task threads.
-LogStats: Stats thread started at 0.146767
+LogStats: Stats thread started at 0.279989
 LogD3D11RHI: Loaded GFSDK_Aftermath_Lib.x64.dll
 LogICUInternationalization: ICU TimeZone Detection - Raw Offset: -8:00, Platform Override: ''
 LogPluginManager: Mounting plugin Paper2D
@@ -103,28 +103,12 @@ LogPluginManager: Mounting plugin ScreenshotTools
 LogPluginManager: Mounting plugin Takes
 LogPluginManager: Mounting plugin DDTools
 LogPluginManager: Mounting plugin EditorTools
-LogInit: Warning: Incompatible or missing module: <#Module Name#>
+LogInit: Warning: Incompatible or missing module: EditorTools
 Running C:/Program Files/Epic Games/UE_4.23/Engine/Binaries/DotNET/UnrealBuildTool.exe Development Win64 -Project="C:/Users/Darica/Documents/Unreal Projects/ARTemplate/ARTemplate.uproject" -TargetType=Editor -Progress -NoHotReloadFromIDE
-While compiling C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Intermediate\Build\BuildRules\ARTemplateModuleRules.dll:
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(8,19) : error CS1040: Preprocessor directives must appear as the first non-whitespace character on a line
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(10,14) : error CS1040: Preprocessor directives must appear as the first non-whitespace character on a line
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(9,1) : error CS1031: Type expected
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(11,2) : error CS1031: Type expected
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(11,2) : error CS1519: Invalid token '{' in class, struct, or interface member declaration
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(12,8) : error CS1519: Invalid token '=' in class, struct, or interface member declaration
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(12,29) : error CS1519: Invalid token ';' in class, struct, or interface member declaration
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(14,9) : error CS1520: Method must have a return type
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(18,13) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(25,12) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(30,12) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(35,12) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(44,12) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(45,16) : error CS1001: Identifier expected
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(45,18) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(46,36) : error CS1518: Expected class, delegate, enum, interface, or struct
-c:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs(52,5) : error CS1022: Type or namespace definition, or end-of-file expected
-ERROR: Unable to compile source files.
-LogInit: Warning: Still incompatible or missing module: <#Module Name#>
+Using 'git status' to determine working set for adaptive non-unity build (C:\Users\Darica\Documents\Unreal Projects\ARTemplate).
+Creating makefile for UE4Editor (no existing makefile)
+ERROR: Could not find definition for module 'deps<#Module Name#>', (referenced via Target -> EditorTools.Build.cs)
+LogInit: Warning: Still incompatible or missing module: EditorTools
 LogExit: Preparing to exit.
 LogModuleManager: Shutting down and abandoning module DesktopPlatform (44)
 LogModuleManager: Shutting down and abandoning module PlatformCryptoOpenSSL (42)
@@ -149,4 +133,4 @@ LogModuleManager: Shutting down and abandoning module SandboxFile (6)
 LogModuleManager: Shutting down and abandoning module PakFile (4)
 LogModuleManager: Shutting down and abandoning module RSA (3)
 LogExit: Exiting.
-Log file closed, 02/24/20 13:17:13
+Log file closed, 02/24/20 14:00:04
