@@ -1,0 +1,3 @@
+[submodule "Plugins/UE4_EditorTools"]
+	path = Plugins/UE4_EditorTools
+	url = https://github.com/daricalouie/UE4_EditorTools.git
