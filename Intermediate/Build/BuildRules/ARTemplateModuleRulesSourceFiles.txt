@@ -1,8 +1,3 @@
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\DDTools\Source\DDBase\DDBase.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\DDTools\Source\DDBlueprints\DDBlueprints.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\DDTools\Source\DDHelpers\DDHelpers.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\DDTools\Source\DDManager\DDManager.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\DDTools\Source\DDLog\DDLog.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\DDTools\Source\ThirdParty\depsReLog\depsReLog.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\EditorTools\EditorTools.Build.cs
-C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Plugins\UE4_EditorTools\Source\ThirdParty\depsEditorTools\depsEditorTools.Build.cs
+C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Source\ARTemplate\ARTemplate.Build.cs
+C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Source\ARTemplate.Target.cs
+C:\Users\Darica\Documents\Unreal Projects\ARTemplate\Source\ARTemplateEditor.Target.cs
